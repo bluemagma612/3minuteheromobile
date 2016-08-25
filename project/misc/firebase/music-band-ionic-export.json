@@ -1,0 +1,243 @@
+{
+  "appSettings" : {
+    "audioStream" : "http://stream-dc1.radioparadise.com/mp3-128",
+    "facebookPage" : "therollingstones",
+    "iTunesURI" : "https://itunes.apple.com/us/artist/the-rolling-stones/id1249595",
+    "instagramTag" : "therollingstones",
+    "newsJSONURI" : "http://skounis.s3.amazonaws.com/mobile-apps/music-band/news.json",
+    "socialMediaAccounts" : {
+      "facebook" : "therollingstones",
+      "instagram" : "therollingstones",
+      "twitter" : "RollingStones"
+    },
+    "store" : "http://rollingstones.shop.bravadousa.com/store/",
+    "website" : "http://www.rollingstones.com/",
+    "welcomeSlogan" : "But suddenly popular music became bigger than it had ever been before",
+    "welcomeTitle" : "The Fire Band",
+    "wordPressURI" : "http://demo.titaniumtemplates.com/wordpress/tag/rollingstones/?json=1",
+    "youtubeUser" : "TheRollingStones"
+  },
+  "events" : {
+    "-KFowzfwbjjvNma117cR" : {
+      "deletable" : false,
+      "editable" : false,
+      "endsAt" : 1432587600000,
+      "incrementsBadgeTotal" : false,
+      "startsAt" : 1432501200000,
+      "title" : "Hartford United States XL Center",
+      "type" : "info"
+    },
+    "-KFox3gvvYHIhgWCeaKs" : {
+      "deletable" : false,
+      "editable" : false,
+      "endsAt" : 1431118800000,
+      "incrementsBadgeTotal" : false,
+      "startsAt" : 1430859600000,
+      "title" : "Trenton Sun National Bank Center",
+      "type" : "important"
+    },
+    "-KFox57vnR21qI0vSQuj" : {
+      "deletable" : false,
+      "editable" : false,
+      "endsAt" : 1434056400000,
+      "incrementsBadgeTotal" : false,
+      "startsAt" : 1433883600000,
+      "title" : "Cincinnati US Bank Arena",
+      "type" : "success"
+    },
+    "-KJFZiv6bn4BXFqpSsLp" : {
+      "deletable" : false,
+      "editable" : false,
+      "endsAt" : 1434402000000,
+      "incrementsBadgeTotal" : false,
+      "startsAt" : 1434229200000,
+      "title" : "Milwaukee Marcus Amphitheater",
+      "type" : "special"
+    }
+  },
+  "mapData" : {
+    "annotations" : {
+      "-KJF_vv6JOlte_kdTzOM" : {
+        "latitude" : 37.407,
+        "longitude" : -122.1,
+        "title" : "HartfordUnitedStatesXLCenter."
+      },
+      "-KJF_yTLlHaOgdhWfy8n" : {
+        "latitude" : 37.41,
+        "longitude" : -122.1,
+        "title" : "TrentonSunNationalBankCenter."
+      }
+    },
+    "origin" : {
+      "latitude" : 37.407,
+      "longitude" : -122.1
+    },
+    "zoomLevel" : 15
+  },
+  "rooms" : {
+    "-KJFb7EP15uKUwZ0w61p" : {
+      "icon" : "ion-headphone",
+      "messages" : {
+        "-JsQb_FPaOeMK_S8ETM8" : {
+          "createdAt" : 1434982438075,
+          "from" : "Gena",
+          "message" : "Hi"
+        },
+        "-JsWSvdPvyuIPvkh9uTZ" : {
+          "createdAt" : 1435080571644,
+          "from" : "Anton",
+          "message" : "My name is Anton"
+        },
+        "-JsWSy3McFvggEro_ahh" : {
+          "createdAt" : 1435080581566,
+          "from" : "Gena",
+          "message" : "Hi there"
+        },
+        "-Jsa876HUSkijzNRxcYi" : {
+          "createdAt" : 1435159003762,
+          "from" : "qwerty",
+          "message" : "Test"
+        },
+        "-Ju7MySqhGnjlqmirejS" : {
+          "createdAt" : 1436807063645,
+          "from" : "isus",
+          "message" : "hy"
+        },
+        "-Ju7N-BPPZbhKYwKJPdL" : {
+          "createdAt" : 1436807070815,
+          "from" : "isus",
+          "message" : "hi sa ne futem"
+        },
+        "-Ju7N5wpo7JaALexMwy-" : {
+          "createdAt" : 1436807098349,
+          "from" : "isus",
+          "message" : "eee"
+        },
+        "-Ju9GmhG3ABbyTBmRb_X" : {
+          "createdAt" : 1436838997046,
+          "from" : "OswaldoCFR",
+          "message" : "hg"
+        },
+        "-JuEIEqFjlGP5wVmfzg-" : {
+          "createdAt" : 1436923264784,
+          "from" : "smarts",
+          "message" : "sma"
+        },
+        "-JuEIHmd4xmDS0_YGg3J" : {
+          "createdAt" : 1436923277125,
+          "from" : "smarts",
+          "message" : "hi"
+        },
+        "-JuLn4yBR9Z7OPVOWe69" : {
+          "createdAt" : 1437049053241,
+          "from" : "test",
+          "message" : "hallo"
+        },
+        "-JuNGFxAWwNMaxNGFE7_" : {
+          "createdAt" : 1437073739682,
+          "from" : "Tester",
+          "message" : "fish"
+        },
+        "-JuNJ7BdPMEEqQkzGXbb" : {
+          "createdAt" : 1437074490243,
+          "from" : "Tester",
+          "message" : "hi"
+        },
+        "-JuNJQ0UpZUSsamys3dw" : {
+          "createdAt" : 1437074567353,
+          "from" : "FISH",
+          "message" : "hi"
+        },
+        "-JuNK9SYoWPJ1HeFQicL" : {
+          "createdAt" : 1437074762793,
+          "from" : "Schreiner",
+          "message" : "oha"
+        },
+        "-JuNzAGurt0oqd5ub8OM" : {
+          "createdAt" : 1437085775249,
+          "from" : "Mahmooddev",
+          "message" : "Hi"
+        },
+        "-JuOjor92ExlxqFkCWoy" : {
+          "createdAt" : 1437098528395,
+          "from" : "1111",
+          "message" : "쇠리시"
+        },
+        "-JuWp9-j5MV7iVXd9qLV" : {
+          "createdAt" : 1437234145521,
+          "from" : "identical",
+          "message" : "hello"
+        },
+        "-JucE3A59c96ug0ky-Xl" : {
+          "createdAt" : 1437341598701,
+          "from" : "curupa",
+          "message" : "woah"
+        },
+        "-JugTc0pe2m2Pu5uvfCp" : {
+          "createdAt" : 1437412786335,
+          "from" : "Tester",
+          "message" : "test"
+        },
+        "-JuhREFM-bKxJZsuNzt9" : {
+          "createdAt" : 1437428942414,
+          "from" : "deni",
+          "message" : "ola"
+        },
+        "-JulxmAtHnCydwujBEEP" : {
+          "createdAt" : 1437504840897,
+          "from" : "asad",
+          "message" : "hello"
+        },
+        "-Jus2EKrMEn7CbNSYXqU" : {
+          "createdAt" : 1437606933958,
+          "from" : "tessg",
+          "message" : "hi"
+        },
+        "-JuvpRUxIPQ0iMh9ytGy" : {
+          "createdAt" : 1437670426734,
+          "from" : "joeshmoe",
+          "message" : "this is cool"
+        },
+        "-JuwS81hZXKl2dB7fnsp" : {
+          "createdAt" : 1437680832783,
+          "from" : "joeshmoe",
+          "message" : "hello"
+        }
+      },
+      "name" : "General"
+    },
+    "-KFowzfwbjjvNma116bK" : {
+      "icon" : "ion-ipod",
+      "messages" : {
+        "-JsQbeKiCBGijzci6Bzk" : {
+          "createdAt" : 1434982458996,
+          "from" : "Gena",
+          "message" : "Great chat"
+        }
+      },
+      "name" : "Albums"
+    },
+    "-KFox3gvvYHIhgWCebMa" : {
+      "icon" : "ion-radio-waves",
+      "messages" : {
+        "-JsQbliJgesaZwiosIhc" : {
+          "createdAt" : 1434982489140,
+          "from" : "Gena",
+          "message" : "Hi"
+        },
+        "-JsQbmF4cvRvnpRh0BIy" : {
+          "createdAt" : 1434982491369,
+          "from" : "Gena",
+          "message" : "New tour available"
+        }
+      },
+      "name" : "Tours"
+    }
+  },
+  "users" : {
+    "-JsQbmF4cvRvnpRh0ABe" : {
+      "displayName" : "demo",
+      "email" : "demo@demo.com"
+    }
+  }
+}

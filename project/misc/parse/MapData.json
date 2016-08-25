@@ -1,0 +1,24 @@
+{ "results": [
+	{
+        "annotations": [
+            {
+                "latitude": 37.407,
+                "longitude": -122.1,
+                "title": "Hartford United States XL Center."
+            },
+            {
+                "latitude": 37.41,
+                "longitude": -122.1,
+                "title": "Trenton Sun National Bank Center."
+            }
+        ],
+        "createdAt": "2015-08-11T20:07:56.828Z",
+        "objectId": "afCdFGqNLG",
+        "origin": {
+            "latitude": 37.407,
+            "longitude": -122.1
+        },
+        "updatedAt": "2015-08-11T20:07:56.828Z",
+        "zoomLevel": 15
+    }
+] }
