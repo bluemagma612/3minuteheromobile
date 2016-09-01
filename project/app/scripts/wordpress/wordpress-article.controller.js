@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.wordpress')
+		.module('threeMinuteHero.wordpress')
 		.controller('WordpressArticleController', WordpressArticleController);
 
 	WordpressArticleController.$inject = [

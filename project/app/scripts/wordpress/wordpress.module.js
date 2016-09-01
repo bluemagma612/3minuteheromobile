@@ -2,9 +2,9 @@
 	'use strict';
 
 	angular
-		.module('musicband.wordpress', [
+		.module('threeMinuteHero.wordpress', [
 			'ionic',
-			'musicband.common'
+			'threeMinuteHero.common'
 		])
 		.config(function($stateProvider) {
 			$stateProvider
@@ -22,7 +22,7 @@
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/wordpress/wordpress-article.html',
-							controller: 'WordpressArticleController as vm'
+							controller: 'ShowController'
 						}
 					}
 				});

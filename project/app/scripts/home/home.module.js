@@ -2,10 +2,10 @@
 	'use strict';
 
 	angular
-		.module('musicband.home', [
+		.module('threeMinuteHero.home', [
 			'ionic',
 			'ngCordova',
-			'musicband.common'
+			'threeMinuteHero.common'
 		])
 		.config(function($stateProvider) {
 			$stateProvider

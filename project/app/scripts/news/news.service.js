@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.news')
+		.module('threeMinuteHero.news')
 		.factory('newsService', newsService);
 
 	newsService.$inject = ['$http', '$q', 'appSettings'];

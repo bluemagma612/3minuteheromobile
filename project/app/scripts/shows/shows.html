@@ -1,0 +1,20 @@
+<ion-view view-title="Shows">
+	<ion-content>
+		<ion-refresher
+			pulling-text="Pull to refresh..."
+			on-refresh="vm.doRefresh()">
+		</ion-refresher>
+
+		<div ng-repeat="show in vm.shows">
+			<div class="card" ng-click="vm.navigate(show.id)">
+				<div class="item item-text-wrap">
+					<p>{{show.formatted_datetime}}</p>
+					<h2>{{show.title}}</h2>
+					<h3>{{show.venue.name}}</h3>
+					<h4>{{show.formatted_location}}</h4>
+				</div>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

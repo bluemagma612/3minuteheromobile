@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.chats')
+		.module('threeMinuteHero.chats')
 		.factory('chatRoomsService', chatRoomsService);
 
 	chatRoomsService.$inject = ['$firebaseArray', 'firebaseDb'];

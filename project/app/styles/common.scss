@@ -11,6 +11,17 @@ img {
 	padding: 0;
 }
 
+.scroll-content {
+ 	background: url('../images/pinstriped_suit.png') repeat top center fixed !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+ 	background-size: cover !important;
+}
+
+.menu-bg {
+	background-color: #000000;
+}
+
 /*
  * Android. Action sheet
  */

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.youtube', [
+		.module('threeMinuteHero.youtube', [
 			'ionic'
 		])
 		.config(function($stateProvider) {

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.stream')
+		.module('threeMinuteHero.stream')
 		.factory('streamService', streamService);
 
 	streamService.$inject = ['$http', '$q', 'appSettings'];
@@ -47,7 +47,7 @@
 				if (!item || !item.artworkUrl100) {
 					return null;
 				}
-				
+
 				return item.artworkUrl100.replace(resolutionRegex, '500x500');
 			});
 		}

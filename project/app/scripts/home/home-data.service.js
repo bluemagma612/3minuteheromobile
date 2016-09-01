@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.home')
+		.module('threeMinuteHero.home')
 		.factory('homeDataService', homeDataService);
 
 	homeDataService.$inject = [];
@@ -23,20 +23,16 @@
 				title: 'Twitter',
 				url: 'https://twitter.com/' + settings.socialMediaAccounts.twitter
 			}, {
-				icon: 'ion-social-instagram-outline',
-				title: 'Instagram',
-				url: 'https://instagram.com/' + settings.socialMediaAccounts.instagram
-			}, {
 				icon: 'ion-ipad',
 				title: 'Web site',
 				url: settings.website
 			}, {
 				icon: 'ion-music-note',
 				title: 'Music',
-				url: settings.iTunesURI
+				url: 'https://www.cdbaby.com/cd/3minutehero'
 			}, {
 				icon: 'ion-briefcase',
-				title: 'Store',
+				title: 'Merchandise',
 				url: settings.store
 			}];
 		}

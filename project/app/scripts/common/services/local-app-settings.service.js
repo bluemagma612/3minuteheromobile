@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.common')
+		.module('threeMinuteHero.common')
 		.factory('localAppSettings', localAppSettings);
 
 	localAppSettings.$inject = ['$q'];

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.common')
+		.module('threeMinuteHero.common')
 		.factory('firebaseAppSettings', firebaseAppSettings);
 
 	firebaseAppSettings.$inject = ['firebaseDb', '$firebaseObject', '$firebaseArray', '$q', '_'];
@@ -17,7 +17,7 @@
 			getMapData: getMapData,
 			getEvents: getEvents
 		};
-		
+
 		function initSettings() {
 			var deferred = $q.defer();
 			$firebaseObject(firebaseDb.child('appSettings'))
@@ -25,20 +25,20 @@
 					storedSettings = settings;
 					deferred.resolve(settings);
 				});
-			
+
 			return deferred.promise;
 		}
-		
+
 		function getMapData() {
 			var deferred = $q.defer();
 			$firebaseObject(firebaseDb.child('mapData'))
 				.$loaded(function(mapData) {
 					deferred.resolve(mapData);
 				});
-			
+
 			return deferred.promise;
 		}
-		
+
 		function getEvents() {
 			var deferred = $q.defer();
 			$firebaseArray(firebaseDb.child('events'))
@@ -59,7 +59,7 @@
 				});
 			return deferred.promise;
 		}
-		
+
 		function getSettings() {
 			return storedSettings;
 		}

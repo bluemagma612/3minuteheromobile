@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('starter')
+		.module('threeMinuteHero')
 		.config(function($httpProvider) {
 			$httpProvider.interceptors.push(function($rootScope) {
 				return {

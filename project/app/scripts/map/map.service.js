@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.map')
+		.module('threeMinuteHero.map')
 		.factory('mapService', mapService);
 
 	mapService.$inject = ['appSettings'];
@@ -13,7 +13,7 @@
 			getMapData: getMapData
 		};
 		return service;
-		
+
 		function getMapData() {
 			return appSettings.getMapData();
 		}

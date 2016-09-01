@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.chats')
+		.module('threeMinuteHero.chats')
 		.controller('ChatsLoginController', ChatsLoginController);
 
 	ChatsLoginController.$inject = [
@@ -37,7 +37,7 @@
 					alert('Error: ' + error);
 				});
 			} else {
-				alert('Please fill all details');
+				alert('Please complete all fields');
 			}
 		}
 
@@ -53,10 +53,10 @@
 					});
 				}).catch(function(error) {
 					$ionicLoading.hide();
-					alert('Authentication failed:' + error.message);
+					alert('Login failed:' + error.message);
 				});
 			} else {
-				alert('Please enter email and password both');
+				alert('Please enter your email and password');
 			}
 		}
 	}

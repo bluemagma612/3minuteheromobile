@@ -2,5 +2,5 @@
 	'use strict';
 
 	angular
-		.module('musicband.common', ['ionic']);
+		.module('threeMinuteHero.common', ['ionic']);
 })();

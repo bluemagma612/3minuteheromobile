@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.facebook')
+		.module('threeMinuteHero.facebook')
 		.controller('FacebookAlbumsController', FacebookAlbumsController);
 
 	FacebookAlbumsController.$inject = ['$state', '$stateParams', 'facebookService'];

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.push')
+		.module('threeMinuteHero.push')
 		.controller('PushController', PushController);
 
 	PushController.$inject = ['$ionicPopup', 'pushSenderService', 'pushTokenService'];

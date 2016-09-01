@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.home')
+		.module('threeMinuteHero.home')
 		.factory('menuItems', menuItems);
 
 	menuItems.$inject = [];
@@ -12,19 +12,19 @@
 		var data = [{
 			title: 'News',
 			path: 'wordpress-articles',
-			icon: 'ion-social-wordpress'
+			icon: 'ion-android-list'
 		}, {
-			title: 'Videos',
-			path: 'videos',
+			title: 'Music',
+			path: 'stream',
 			icon: 'ion-social-youtube'
 		}, {
-			title: 'TheRollingStones',
-			path: 'instagram-recent-media',
-			icon: 'ion-social-instagram-outline'
+			title: 'Shows',
+			path: 'shows',
+			icon: 'ion-ios-calendar-outline'
 		}, {
-			title: 'Fans Chat',
-			path: 'chat-rooms',
-			icon: 'ion-chatbubbles'
+			title: 'The Band',
+			path: 'members',
+			icon: 'ion-briefcase'
 		}];
 
 		return data;

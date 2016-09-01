@@ -61,16 +61,17 @@ module.exports = function(grunt) {
 				constants: {
 					ENV: {
 						name: 'development',
-						youtubeKey: 'AIzaSyDael5MmCQa1GKQNKQYypmBeB08GATgSEo',
-						ionicPrivateKey: '178145c1b013a7fe15064313f0165520f325923faa1ebfc4', //'c63b22cd7330a4a9d5e526bfcd74891a59fd5c23d1d81239',
-						ionicPublicKey: 'a120f4010398294ff92afb7cf5f28747ebe761c70a8c0685', //'04dee953a91ef3857f1c8a7cf4748ecee375848681f7e833',
-						ionicAppId: 'f12c9f1e', //'2113c758',
-						gcmId: '',
-						instagramAppId: '', //'ab4ccebff87a46e789e231bed83685e4'
-						// http://logicum.co/getting-a-facebook-page-permanent-access-token/
+						youtubeKey: 'AIzaSyBO5vL-ha0v3W5FVxwAQbe_XWtGWK5ax-Y',
+						ionicPrivateKey: '178145c1b013a7fe15064313f0165520f325923faa1ebfc4',
+						ionicPublicKey: 'a120f4010398294ff92afb7cf5f28747ebe761c70a8c0685',
+						ionicAppId: '96b0b5f0',
+						gcmId: '104217572099',
+						instagramAppId: '',
+
 						facebookPermanentAccessToken: 'EAAOiLeAkHj0BAMngP25Me8zd13ZCYkpRyAujCNOPtz4EX7bAL0sl3GBWjbpOoQberauvfcR81IsIV6QZC40kDyc9ZCiU1qVcnn9tt9CeRZAtWaSYbVZA1ahg3IVYZBZCSxI2RnGUpHtQ7sEGDp0wyeVr6Q62r4hZBYB8UoeZAU8ZCLgAZDZD',
 						firebaseConfig: {
-							apiKey: "yQeAw9OIoWPYH4qgPshdr85ldZUGvz5ReGwKlG3L",
+							// apiKey: "yQeAw9OIoWPYH4qgPshdr85ldZUGvz5ReGwKlG3L",
+							apiKey: "AIzaSyA_2_yy1D8tphJQ3-u0PETADI0tzlhSSPw",
 							authDomain: "minute-hero-mobile.firebaseapp.com",
 							databaseURL: "https://minute-hero-mobile.firebaseio.com"
 						},
@@ -92,13 +93,13 @@ module.exports = function(grunt) {
 				constants: {
 					ENV: {
 						name: 'production',
-						youtubeKey: 'AIzaSyDael5MmCQa1GKQNKQYypmBeB08GATgSEo',
-						ionicPrivateKey: '178145c1b013a7fe15064313f0165520f325923faa1ebfc4', //'c63b22cd7330a4a9d5e526bfcd74891a59fd5c23d1d81239',
-						ionicPublicKey: 'a120f4010398294ff92afb7cf5f28747ebe761c70a8c0685', //'04dee953a91ef3857f1c8a7cf4748ecee375848681f7e833',
-						ionicAppId: 'f12c9f1e', //'2113c758',
-						gcmId: '',
-						instagramAppId: '', //'ab4ccebff87a46e789e231bed83685e4'
-						// http://logicum.co/getting-a-facebook-page-permanent-access-token/
+						youtubeKey: 'AIzaSyBO5vL-ha0v3W5FVxwAQbe_XWtGWK5ax-Y',
+						ionicPrivateKey: '178145c1b013a7fe15064313f0165520f325923faa1ebfc4',
+						ionicPublicKey: 'a120f4010398294ff92afb7cf5f28747ebe761c70a8c0685',
+						ionicAppId: '96b0b5f0',
+						gcmId: '104217572099',
+						instagramAppId: '',
+
 						facebookPermanentAccessToken: 'EAAOiLeAkHj0BAMngP25Me8zd13ZCYkpRyAujCNOPtz4EX7bAL0sl3GBWjbpOoQberauvfcR81IsIV6QZC40kDyc9ZCiU1qVcnn9tt9CeRZAtWaSYbVZA1ahg3IVYZBZCSxI2RnGUpHtQ7sEGDp0wyeVr6Q62r4hZBYB8UoeZAU8ZCLgAZDZD',
 						firebaseUrl: 'minute-hero-mobile.firebaseio.com',
 						parse: {

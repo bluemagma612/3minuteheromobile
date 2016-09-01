@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.map')
+		.module('threeMinuteHero.map')
 		.controller('MapController', MapController);
 
 	MapController.$inject = ['$scope', 'mapData'];

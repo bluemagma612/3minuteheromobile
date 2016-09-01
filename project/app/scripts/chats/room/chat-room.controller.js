@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.chats')
+		.module('threeMinuteHero.chats')
 		.controller('ChatRoomController', ChatRoomController);
 
 	ChatRoomController.$inject = ['$state', '$ionicHistory', 'chatMessagesService', 'chatsAuthService'];

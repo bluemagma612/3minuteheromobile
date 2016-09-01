@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.home')
+		.module('threeMinuteHero.home')
 		.controller('HomeController', HomeController);
 
 	HomeController.$inject = ['menuItems', 'homeDataService', 'externalAppsService', 'appSettings'];

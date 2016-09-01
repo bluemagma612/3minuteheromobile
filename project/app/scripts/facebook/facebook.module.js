@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.facebook', [
+		.module('threeMinuteHero.facebook', [
 			'ionic',
 			'ngCordova'
 		])

@@ -2,14 +2,14 @@
 	'use strict';
 
 	angular
-		.module('musicband.facebook')
+		.module('threeMinuteHero.facebook')
 		.factory('facebookService', facebookService);
 
 	facebookService.$inject = ['$http', '$q', '_', 'ENV'];
 
 	/* @ngInject */
 	function facebookService($http, $q, _, ENV) {
-		var apiUrl = 'https://graph.facebook.com/v2.3/';
+		var apiUrl = 'https://graph.facebook.com/v2.7/';
 
 		var service = {
 			getAlbums: getAlbums,
@@ -29,7 +29,7 @@
 		}
 
 		function getAlbumPhotos(pageId, albumId, url) {
-			url = url || apiUrl + albumId + '/photos';
+			url = url || apiUrl + albumId + '?fields=photos.fields(name,source)';
 			return $http.get(url, getParams(pageId)).then(function(result) {
 				return result.data;
 			});
@@ -41,11 +41,11 @@
 			return $http.get(apiUrl + pageId + '/albums', params).then(function(result) {
 				var albums = [];
 				_.each(result.data.data, function(album) {
-					if (album['cover_photo']) {
-						album.cover = apiUrl + album['cover_photo'];
-						album.cover = album.cover + '/picture?access_token=' + ENV.facebookPermanentAccessToken;
+					// if (album['cover_photo']) {
+					// 	 album.cover = apiUrl + album['cover_photo'];
+						album.cover = apiUrl + album.id + '/picture?access_token=' + ENV.facebookPermanentAccessToken;
 						albums.push(album);
-					}
+					// }
 				});
 
 				return albums;

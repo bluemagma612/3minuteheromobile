@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.news')
+		.module('threeMinuteHero.news')
 		.controller('ArticleController', ArticleController);
 
 	ArticleController.$inject = ['$stateParams', 'newsService'];

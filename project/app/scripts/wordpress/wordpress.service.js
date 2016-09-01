@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.wordpress')
+		.module('threeMinuteHero.wordpress')
 		.factory('wordpressService', wordpressService);
 
 	wordpressService.$inject = ['$http', '$q', '_', 'htmlToPlainText', 'appSettings'];
@@ -26,7 +26,7 @@
 					articles = [];
 					_.each(response.data.posts, function(item) {
 
-						var imageUrl = (item.thumbnail_images) ? item.thumbnail_images.full.url : null;
+						var imageUrl = (item.post_thumbnail) ? item.post_thumbnail.URL : 'images/icon.png' ;
 
 						var tags = [];
 						_.each(item.tags, function(tag) {
@@ -37,7 +37,7 @@
 						var content = contentIndex === -1 ? item.content : item.content.substring(contentIndex);
 
 						articles.push({
-							id: item.id,
+							id: item.ID,
 							title: item.title,
 							brief: htmlToPlainText(item.excerpt),
 							image: imageUrl,

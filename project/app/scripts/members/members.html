@@ -1,0 +1,14 @@
+<ion-view view-title="Members of 3 Minute Hero">
+	<ion-content>
+		<ion-list>
+			<div ng-repeat="member in vm.members"
+			   class="item item-avatar"
+			   style="background: transparent;"
+			   ng-click="vm.navigate(member.id)" >
+				<img ng-src="{{member.smallImg}}"/>
+				<h2>{{member.name}}</h2>
+				<p>{{member.instrument}}</p>
+			</div>
+		</ion-list>
+	</ion-content>
+</ion-view>

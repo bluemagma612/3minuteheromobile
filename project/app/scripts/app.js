@@ -1,32 +1,29 @@
-// Ionic Starter App
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.controllers' is found in controllers.js
-angular.module('starter', [
+angular.module('threeMinuteHero', [
 	'ionic',
 	'config',
 	'ionic.service.core',
 	'ionic.service.push',
 	'parse-angular',
 	'parse-angular.enhance',
-	'musicband.common',
-	'musicband.infrastructure',
-	'musicband.chats',
-	'musicband.news',
-	'musicband.map',
-	'musicband.home',
-	'musicband.youtube',
-	'musicband.push',
-	'musicband.menu',
-	'musicband.instagram',
-	'musicband.facebook',
-	'musicband.wordpress',
-	'musicband.stream',
-	'musicband.events',
+	'threeMinuteHero.common',
+	'threeMinuteHero.infrastructure',
+	'threeMinuteHero.chats',
+	'threeMinuteHero.news',
+	'threeMinuteHero.map',
+	'threeMinuteHero.home',
+	'threeMinuteHero.youtube',
+	'threeMinuteHero.push',
+	'threeMinuteHero.menu',
+	'threeMinuteHero.facebook',
+	'threeMinuteHero.wordpress',
+	'threeMinuteHero.stream',
+	'threeMinuteHero.events',
+	'threeMinuteHero.members',
+	'threeMinuteHero.shows',
 	'gMaps',
-	'ngCordova'
+	'ngCordova',
+	'angularMoment'
 ])
 
 .value('_', window._)
@@ -45,6 +42,7 @@ angular.module('starter', [
 		}
 	});
 })
+
 
 .config(function($urlRouterProvider, ENV) {
 	window.Parse.initialize(ENV.parse.applicationId, ENV.parse.key);

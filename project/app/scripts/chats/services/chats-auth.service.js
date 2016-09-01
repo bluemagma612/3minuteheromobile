@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.chats')
+		.module('threeMinuteHero.chats')
 		.factory('chatsAuthService', chatsAuthService);
 
 	chatsAuthService.$inject = ['$q', '$firebaseAuth', 'firebaseDb', '$timeout'];
@@ -44,7 +44,7 @@
 		function signUp(user) {
 			return auth.$createUserWithEmailAndPassword(user.email, user.password).then(
 				function(userData) {
-					alert('User created successfully!');
+					//alert('User created successfully!');
 
 					firebaseDb.child('users').child(userData.uid).set({
 						email: user.email,
@@ -59,7 +59,7 @@
 		function signIn(email, password) {
 			return auth.$signInWithEmailAndPassword(email, password).then(
 				function(authData) {
-					console.log('Logged in as:' + authData.uid);
+					// console.log('Logged in as:' + authData.uid);
 					getUser(authData.uid).then(function(user) {
 						setUser(user);
 					});

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.events')
+		.module('threeMinuteHero.events')
 		.controller('EventsController', EventsController);
 
 	EventsController.$inject = ['events'];

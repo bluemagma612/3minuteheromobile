@@ -7,7 +7,7 @@
 		<ion-list ng-show="vm.roomName">
 			<ion-item class="item item-input-inset">
 				<label class="item-input-wrapper">
-					<input type="text" ng-model="vm.IM.textMessage" placeholder="Type in your message...">
+					<input type="text" ng-model="vm.IM.textMessage" placeholder="Type in your message..." style="color: #000;">
 				</label>
 				<button ng-click="vm.sendMessage(vm.IM.textMessage)" class="button button-small button-balanced">
 					Send
@@ -21,12 +21,12 @@
 			</ion-item>
 			<ion-item class="" ng-repeat="message in vm.messages | orderBy:'createdAt':true" type="item-text-wrap">
 				<h4>{{message.from}} :</h4>
-				<span am-time-ago="vm.message.createdAt" class="item-note">
+				<span am-time-ago="message.createdAt" class="item-note">
 				</span>
 				<p>{{message.message}}</p>
-				<ion-option-button class="button-assertive" ng-click="vm.remove(message)">
-					Delete
-				</ion-option-button>
+				<!--<ion-option-button class="button-assertive" ng-click="vm.remove(message)">-->
+					<!--Delete-->
+				<!--</ion-option-button>-->
 			</ion-item>
 		</ion-list>
 		<ion-list ng-hide="vm.roomName">

@@ -14,42 +14,31 @@
 
 	<ion-side-menu side="left">
 		<ion-header-bar class="bar-stable">
-			<h1 class="title">Music Band</h1>
+			<h1 class="title">Menu</h1>
 		</ion-header-bar>
-		<ion-content>
+		<ion-content class="menu-bg">
 			<ion-list>
 				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/home">
 					<i class="icon ion-ios-home"></i>
 					Home
 				</ion-item>
-				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/articles">
-					<i class="icon ion-ios-paper"></i>
-					News
-				</ion-item>
 				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/wordpress-articles">
-					<i class="icon ion-social-wordpress"></i>
-					Wordpress
-				</ion-item>
-				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/stream">
-					<i class="icon ion-headphone"></i>
-					Live radio
+					<i class="icon ion-android-list"></i>
+					News
 				</ion-item>
 				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/videos">
 					<i class="icon ion-social-youtube"></i>
 					Videos
 				</ion-item>
-				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/instagram-recent-media">
-					<i class="icon ion-social-instagram-outline"></i>
-					#TheRollingStones
-				</ion-item>
 				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/facebook-albums/{{vm.facebookPage}}">
-					<i class="icon ion-social-facebook"></i>
-					Albums
+					<i class="icon ion-images"></i>
+					Facebook Photos
 				</ion-item>
-				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/chat-rooms">
-					<i class="icon ion-chatbubbles"></i>
-					Fans Chat
+				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/members">
+					<i class="icon ion-person-stalker"></i>
+					Band Members
 				</ion-item>
+
 				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/events">
 					<i class="icon ion-ios-calendar-outline"></i>
 					Events
@@ -58,9 +47,17 @@
 					<i class="icon ion-map"></i>
 					Events Map
 				</ion-item>
+				<ion-item nav-clear menu-close class="item-icon-left" href="https://3-minute-hero-merchandise.myshopify.com">
+					<i class="icon ion-tshirt"></i>
+					Merchandise
+				</ion-item>
+				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/chat-rooms">
+					<i class="icon ion-chatbubbles"></i>
+					Fans Chat
+				</ion-item>
 				<ion-item nav-clear menu-close class="item-icon-left" href="#/app/push">
-					<i class="icon ion-android-notifications"></i>
-					Push
+					<i class="icon ion-speakerphone"></i>
+					Notifications
 				</ion-item>
 			</ion-list>
 		</ion-content>

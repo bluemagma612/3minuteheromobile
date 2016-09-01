@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.push')
+		.module('threeMinuteHero.push')
 		.factory('pushSenderService', pushSenderService);
 
 	pushSenderService.$inject = ['$http', 'pushTokenService', 'ENV', '$base64'];

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.chats')
+		.module('threeMinuteHero.chats')
 		.factory('chatMessagesService', chatMessagesService);
 
 	chatMessagesService.$inject = ['$q', '$firebaseArray', 'firebaseDb', 'chatRoomsService', 'chatsAuthService'];
@@ -57,7 +57,7 @@
 		}
 
 		function selectRoom(roomId) {
-			console.log('selecting the room with id: ' + roomId);
+			// console.log('selecting the room with id: ' + roomId);
 			selectedRoomId = roomId;
 			if (roomId) {
 				var room = firebaseDb.child('rooms').child(selectedRoomId);
@@ -67,7 +67,7 @@
 
 		function send(message) {
 			var from = chatsAuthService.user;
-			console.log('sending message from :' + from.displayName + ' & message is ' + message);
+			// console.log('sending message from :' + from.displayName + ' & message is ' + message);
 			if (from && message) {
 				var chatMessage = {
 					from: from.displayName,
@@ -75,7 +75,7 @@
 					createdAt: window.firebase.database.ServerValue.TIMESTAMP
 				};
 				messages.$add(chatMessage).then(function() {
-					console.log('message added');
+					// console.log('message added');
 				});
 			}
 		}

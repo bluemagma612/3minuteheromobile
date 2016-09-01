@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.push', [
+		.module('threeMinuteHero.push', [
 			'ionic',
 			'ionic.service.core',
 			'ionic.service.push',

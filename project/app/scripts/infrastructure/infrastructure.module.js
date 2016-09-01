@@ -2,5 +2,5 @@
 	'use strict';
 
 	angular
-		.module('musicband.infrastructure', []);
+		.module('threeMinuteHero.infrastructure', []);
 })();

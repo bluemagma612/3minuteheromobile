@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.common')
+		.module('threeMinuteHero.common')
 		.factory('externalAppsService', externalAppsService);
 
 	externalAppsService.$inject = ['$window'];

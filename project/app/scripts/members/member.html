@@ -1,0 +1,15 @@
+<ion-view view-title="{{vm.member.name}}">
+	<ion-content>
+		<div class="item item-avatar">
+			<img ng-src="{{vm.member.smallImg}}"/>
+			<h2>{{vm.member.name}}</h2>
+			<p>{{vm.member.instrument}}</p>
+		</div>
+
+		<div class="item item-body">
+			<img class="full-image" ng-src="{{vm.member.fullImg}}">
+			<p>{{vm.member.bio}}</p>
+
+		</div>
+	</ion-content>
+</ion-view>

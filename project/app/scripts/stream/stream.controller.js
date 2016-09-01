@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.stream')
+		.module('threeMinuteHero.stream')
 		.controller('StreamController', StreamController);
 
 	StreamController.$inject = ['$interval', 'appSettings', 'streamService'];

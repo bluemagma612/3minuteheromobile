@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.common')
+		.module('threeMinuteHero.common')
 		.factory('appSettings', appSettings);
 
 	appSettings.$inject = ['ENV', '$injector'];
@@ -17,7 +17,7 @@
 			case 'PARSE':
 				return $injector.get('parseAppSettings');
 		}
-		
+
 		throw new Error('Setting source is not valid');
 	}
 })();

@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.infrastructure')
+		.module('threeMinuteHero.infrastructure')
 		.factory('firebaseDb', firebaseDb);
 
 	firebaseDb.$inject = ['ENV'];

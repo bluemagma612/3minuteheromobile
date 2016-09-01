@@ -1,4 +1,4 @@
-<ion-view view-title="Album">
+<ion-view view-title="{{}}">
 	<ion-content>
 		<ion-refresher
 			pulling-text="Pull to refresh..."
@@ -7,14 +7,14 @@
 
 		<div class="card" ng-repeat="photo in vm.photos">
 			<div class="item">
-				<h2 style="float: left;">{{photo.place.name}}</h2>
+				<h2 style="float: left;">{{photo.name}}</h2>
 				<p class="text-right" am-time-ago="photo.created_time"></p>
 			</div>
 
 			<div class="item item-image">
 				<img ng-src="{{photo.source}}">
 			</div>
-			
+
 			<ion-item class="item-text-wrap" ng-if="!!photo.name">
 				<p>{{photo.name}}</p>
 			</ion-item>

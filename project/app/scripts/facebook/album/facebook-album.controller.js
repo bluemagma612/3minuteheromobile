@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.facebook')
+		.module('threeMinuteHero.facebook')
 		.controller('FacebookAlbumController', FacebookAlbumController);
 
 	FacebookAlbumController.$inject = ['$stateParams', '$scope', '_', 'facebookService'];
@@ -29,12 +29,12 @@
 			vm.url = url || null;
 			return facebookService.getAlbumPhotos(pageId, albumId, url).then(function(response) {
 				if (!vm.url) {
-					vm.photos = response.data;
+					vm.photos = response.photos.data;
 				} else {
-					vm.photos = vm.photos.concat(response.data);
+					vm.photos = vm.photos.concat(response.photos.data);
 				}
 
-				vm.url = response.paging.next;
+				//vm.url = response.paging.next;
 			});
 		}
 

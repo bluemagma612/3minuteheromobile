@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.push')
+		.module('threeMinuteHero.push')
 		.service('pushTokenService', pushTokenService);
 
 	pushTokenService.$inject = ['$ionicPush', '$ionicUser', '$rootScope'];

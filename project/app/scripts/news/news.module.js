@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.news', [
+		.module('threeMinuteHero.news', [
 			'ionic'
 		])
 		.config(function($stateProvider) {

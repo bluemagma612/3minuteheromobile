@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('musicband.youtube')
+		.module('threeMinuteHero.youtube')
 		.factory('youtubeService', youtubeService);
 
 	youtubeService.$inject = ['$http', '$q', '_', 'ENV'];
@@ -68,7 +68,10 @@
 		}
 
 		function getPlaylistId(username) {
-			var url = playlistsUrl + '&forUsername=' + username;
+			// var url = playlistsUrl + '&forUsername=' + username;
+
+			// changed to using channel id -> please put channel id in appSettings \\
+			var url = playlistsUrl + '&id=' + username;
 
 			return $http.get(url).then(function(response) {
 				var items = response.data.items;

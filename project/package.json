@@ -2,7 +2,9 @@
   "name": "music-band",
   "version": "1.11.0",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@ionic/cloud": "^0.8.2"
+  },
   "devDependencies": {
     "cordova": "^5.4.1",
     "elementtree": "0.1.6",
