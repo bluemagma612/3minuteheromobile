@@ -24,7 +24,7 @@
 							var $ionicPopup = $injector.get('$ionicPopup');
 							$ionicPopup.alert({
 								title: 'Alert',
-								template: 'There is no internet connection'
+								template: 'Internet connection required'
 							});
 
 							return $q.reject('No internet connection');
@@ -45,7 +45,7 @@
 
 						if (isPluginAvailable) {
 							var networkState = JSON.stringify(navigator.connection); //.type
-							console.log('Internet connectivity chech. NetworkState: ' + networkState);
+							console.log('Internet connectivity check. NetworkState: ' + networkState);
 
 							// HACK: this is a temporary hack due to Android 3G related issue
 							//       described above.

@@ -22,7 +22,7 @@
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/wordpress/wordpress-article.html',
-							controller: 'ShowController'
+							controller: 'WordpressArticleController as vm'
 						}
 					}
 				});
