@@ -26,7 +26,7 @@
 					articles = [];
 					_.each(response.data.posts, function(item) {
 
-						var imageUrl = (item.post_thumbnail) ? item.post_thumbnail.URL : 'images/icon.png' ;
+						var imageUrl = (item.post_thumbnail) ? item.post_thumbnail.URL : 'images/InAppLogo400x400.png' ;
 
 						var tags = [];
 						_.each(item.tags, function(tag) {

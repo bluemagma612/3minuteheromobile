@@ -1,0 +1,14 @@
+<ion-view view-title="All the albums">
+	<ion-content>
+		<ion-list>
+			<div ng-repeat="album in vm.albums"
+				 class="item item-avatar"
+				 style="background: transparent;"
+				 ng-click="vm.navigate(album.id)" >
+				<img ng-src="{{album.smallImg}}"/>
+				<h2>{{album.name}}</h2>
+				<p>{{album.releaseYear}}</p>
+			</div>
+		</ion-list>
+	</ion-content>
+</ion-view>

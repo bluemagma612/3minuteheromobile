@@ -15,7 +15,7 @@
 			icon: 'ion-android-list'
 		}, {
 			title: 'Music',
-			path: 'stream',
+			path: 'albums',
 			icon: 'ion-social-youtube'
 		}, {
 			title: 'Shows',
@@ -24,7 +24,7 @@
 		}, {
 			title: 'The Band',
 			path: 'members',
-			icon: 'ion-briefcase'
+			icon: 'ion-person-stalker'
 		}];
 
 		return data;
