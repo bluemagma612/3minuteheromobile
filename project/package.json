@@ -65,7 +65,6 @@
       "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
       "id": "nl.x-services.plugins.socialsharing"
     },
-    "cordova-plugin-console",
     "cordova-plugin-inappbrowser",
     "cordova-plugin-x-socialsharing",
     "cordova-plugin-whitelist",
@@ -78,7 +77,6 @@
     "cordova-plugin-transport-security",
     "cordova-plugin-email-composer",
     "cordova-plugin-streaming-media-mod",
-    "cordova-plugin-console",
     "cordova-plugin-compat",
     "cordova-plugin-transport-security",
     "cordova-plugin-email-composer",
